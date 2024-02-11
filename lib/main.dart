@@ -1,3 +1,5 @@
+import 'package:chai/screens/admin/widgets/home.dart';
+
 import 'screens/auth.dart';
 import '../screens/home.dart';
 import '../screens/loading.dart';
