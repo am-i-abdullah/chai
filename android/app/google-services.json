@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401850850820",
+    "project_id": "bistar-me-chai",
+    "storage_bucket": "bistar-me-chai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401850850820:android:279afcc1a1bff32e30df51",
+        "android_client_info": {
+          "package_name": "com.example.chai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNSPN4h0yBIJz0-UiE8MIVnJCTbukjk1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
