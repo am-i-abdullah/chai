@@ -36,12 +36,14 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: _screens[_screenIndex],
       bottomNavigationBar: Container(
-        color: const Color.fromRGBO(46, 39, 47, 1),
-        padding: const EdgeInsets.all(10),
+        color: const Color.fromRGBO(238, 220, 198, 1),
+        padding: const EdgeInsets.symmetric(vertical: 5),
         child: BottomNavigationBar(
           backgroundColor: Colors.transparent,
           showUnselectedLabels: true,
           currentIndex: _screenIndex,
+          type: BottomNavigationBarType.fixed,
+
           onTap: (index) {
             setState(() {
               _screenIndex = index;
@@ -50,18 +52,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
           elevation: 0,
           // items style
-          selectedItemColor: Colors.white,
-          unselectedItemColor: const Color.fromRGBO(130, 125, 136, 1),
+          selectedItemColor: const Color.fromRGBO(35, 12, 2, 1),
+          unselectedItemColor: const Color.fromARGB(211, 35, 12, 2),
 
           // labels styling
           selectedLabelStyle: const TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 10,
+            fontSize: 16,
           ),
           unselectedLabelStyle: const TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 10,
+            fontSize: 14,
           ),
+
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.coffee),
